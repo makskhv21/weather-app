@@ -3,8 +3,7 @@
 Weather App is a web application that provides users with up-to-date information about weather conditions in different regions of the world. Using data from weather APIs, the app displays the current temperature, humidity, wind speed and other weather parameters for selected locations. Weather App allows users to conveniently receive the necessary weather information with the possibility of updating in real time.
 
 ## How the program works
-![image](/public/add_assets/weather1.png)
-![image](/public/add_assets/weather2.png)
+![image](/public/add_assets/weather1.png) ![image](/public/add_assets/weather2.png)
 
 ## :rocket: APIs used
 
