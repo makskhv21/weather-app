@@ -2,9 +2,6 @@
 
 Weather App is a web application that provides users with up-to-date information about weather conditions in different regions of the world. Using data from weather APIs, the app displays the current temperature, humidity, wind speed and other weather parameters for selected locations. Weather App allows users to conveniently receive the necessary weather information with the possibility of updating in real time.
 
-## How the program works
-![image](/public/add_assets/weather1.png) ![image](/public/add_assets/weather2.png)
-
 ## :rocket: APIs used
 
 - [OpenWeatherMap](https://openweathermap.org/) is a service that provides weather data and forecasts for different regions of the world.
@@ -12,6 +9,15 @@ Weather App is a web application that provides users with up-to-date information
 ```
 npm install axios
 ```
+
+## How to use the program?
+
+1. Clone the repository: ``` https://github.com/makskhv21/weather-app.git ```
+2. Install dependencies: ``` npm install ```
+3. Start the server: ``` npm start ```
+
+## How the program works
+![image](/public/add_assets/weather1.png) ![image](/public/add_assets/weather2.png)
 
 ## Learn More
 
