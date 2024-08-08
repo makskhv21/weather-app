@@ -41,11 +41,11 @@ const WeatherApp = () => {
     const tempmax = document.getElementsByClassName('temp_max');
     const tempmin = document.getElementsByClassName('temp_min');
 
-    humidity[0].innerHTML = data.main.humidity+'%';
-    wind[0].innerHTML = data.wind.speed+' km/h';
-    temprature[0].innerHTML = Math.floor(data.main.temp)+'°C';
-    tempmax[0].innerHTML = Math.round(data.main.temp_max) +'°C';
-    tempmin[0].innerHTML = Math.round(data.main.temp_min) +'°C';
+    humidity[0].innerHTML = data.main.humidity + '%';
+    wind[0].innerHTML = data.wind.speed + 'km/h';
+    temprature[0].innerHTML = Math.floor(data.main.temp) + '°C';
+    tempmax[0].innerHTML = Math.round(data.main.temp_max) + '°C';
+    tempmin[0].innerHTML = Math.round(data.main.temp_min) + '°C';
     location[0].innerHTML = data.name;
 
     if (data.weather[0].icon === '01d' || data.weather[0].icon === '01n')
@@ -85,6 +85,7 @@ const WeatherApp = () => {
 
   return (
     <div className='container' style={{ backgroundImage: `url(${backgroundGif})` }}>
+      
       <div className='top-bar'>
         <input type='text' className='cityInput' placeholder='Search'/>
         <div className='search-icon' onClick={()=>{search()}}>
@@ -122,7 +123,7 @@ const WeatherApp = () => {
       </div>
 
     </div>
-  )
-}
+  );
+};
 
 export default WeatherApp;
